@@ -1,0 +1,5 @@
+# Extra pip packages beyond the organizers' base image, with pinned versions.
+# The base image already has: PyTorch 2.4.0 (CUDA 12.1), numpy, pillow, opencv-python-headless, timm, einops,
+# onnx, pyyaml, scipy, scikit-image. Leave this file empty (comments only) if you need nothing else.
+# Example:
+# kornia==0.7.3

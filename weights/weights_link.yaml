@@ -1,0 +1,14 @@
+# Weights are usually too big for git. Put the file(s) of the submission you are reporting behind a
+# PUBLIC link and describe it here (and give the same link and hash in your factsheet).
+# If your weights are COMMITTED in this folder instead, DELETE this file: use one way or the other, not both.
+#
+# Accepted: a direct link, a GitHub release asset, Hugging Face, Dropbox, or a Google Drive FILE link shared with
+# "anyone with the link". One file, or one .zip / .tar.gz that is unpacked into weights/. Not accepted: Drive
+# folders, OneDrive, links that need a login.
+#
+# The organizers download the file once, before the run, and save it in weights/ under the name given by the link's server,
+# or under `filename:` below if you set it (recommended: your run.py then knows the exact name). A .zip or .tar.gz is
+# unpacked into weights/ keeping its inner folders.
+url: https://example.org/path/to/best.pt
+sha256: 0000000000000000000000000000000000000000000000000000000000000000   # sha256sum of that file
+filename: best.pt                                                           # optional: name of the saved file

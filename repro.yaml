@@ -1,0 +1,6 @@
+# The organizers rebuild this file from your factsheet and the leaderboard, so it only has to be valid here.
+team: your-team-name            # exactly as registered on macvi.org (letters, digits, . _ -)
+track: eurs-t1                  # eurs-t1 or eurs-t2
+submission_id: 12345            # your best-scoring TESTING-PHASE submission in this track
+contact: you@example.org        # an address you check during Oct 28-30
+hardware: RTX 3090              # optional
