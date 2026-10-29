@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 weights/.downloaded_by_repro_check
+weights/*.pt
+weights/*.zip

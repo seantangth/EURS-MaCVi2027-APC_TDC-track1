@@ -9,6 +9,6 @@
 # The organizers download the file once, before the run, and save it in weights/ under the name given by the link's server,
 # or under `filename:` below if you set it (recommended: your run.py then knows the exact name). A .zip or .tar.gz is
 # unpacked into weights/ keeping its inner folders.
-url: https://example.org/path/to/best.pt
-sha256: 0000000000000000000000000000000000000000000000000000000000000000   # sha256sum of that file
-filename: best.pt                                                           # optional: name of the saved file
+url: https://huggingface.co/seantangth/EURS-MaCVi2027-APC_TDC-track1-weights/resolve/main/eurs_t1_weights.zip
+sha256: d6b101a67e5d5c454db9d20f74e3da5546d1e8347b7dc8940d6164884854bacd   # sha256sum of that file
+filename: eurs_t1_weights.zip                                              # unpacked into weights/: 4 .pt files + LICENSES/

@@ -1,0 +1,8 @@
+# Keep the build context small: the weights are mounted at /pkg/weights at run time, never copied into the image.
+.git
+__pycache__
+*.pyc
+weights/*.pt
+weights/*.zip
+weights/LICENSES
+weights/.downloaded_by_repro_check

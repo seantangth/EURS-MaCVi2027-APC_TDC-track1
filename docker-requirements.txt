@@ -1,0 +1,13 @@
+# Installed by the root Dockerfile on top of pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime (torch and torchvision come from the
+# CUDA 12.8 index, not from here).
+# Versions are the ones our leaderboard inference resolved to (October 2026).
+timm==1.0.30
+transformers==5.20.2
+tokenizers==0.23.3
+huggingface-hub==2.3.0
+safetensors==0.8.0
+numpy==2.5.4
+pillow==13.0.0
+scikit-image==0.26.0
+scipy==1.18.1
+pyyaml==6.0.3
